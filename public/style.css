@@ -14,4 +14,23 @@ body{
 
 #home h1{
     font-family: cursive;
+    text-decoration: underline;
+}
+
+#home p{
+    font-size: 20px;
+    margin: 0;
+}
+
+#topics img{
+    height: 200px;
+}
+
+#topics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 4%;
 }
