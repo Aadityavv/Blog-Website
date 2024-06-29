@@ -13,36 +13,53 @@
     </div>
 
     <div id="topics">
+        <% if(locals.data){ %>
+            <img src=<%= image %> alt="" srcset="">
+            <p><%= data %></p>
+            <% }else{ %>
         <div id="topic1">
+            <a href="/ai" method="post">
             <img src="./images/ai-robot-wallpaper-8.jpg" alt="Artificial Intelligence" srcset="">
             <p>Explore the world of AI</p>
+        </a>
         </div>
         
         <div id="topic2">
+            <a href="/web">
             <img src="./images/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg" alt="" srcset="">
             <p>Explore the world of Web development</p>
+        </a>
         </div>
         
         <div id="topic3">
+            <a href="/Java">
             <img src="./images/java.webp" alt="" srcset="">
             <p>Explore the world of Java</p>
+        </a>
         </div>
         
         <div id="topic4">
+            <a href="/machine">
             <img src="./images/machineLearning.jpg" alt="" srcset="">
             <p>Explore the world of Machine Learning</p>
+        </a>
         </div>
         
         <div id="topic5">
+            <a href="/open">
             <img src="./images/openAI.jpg" alt="" srcset="">
             <p>Explore the world of openAI</p>
+        </a>
         </div>
         
         <div id="topic6">
+            <a href="/python">
             <img src="./images/python.jpg" alt="" srcset="">
             <p>Explore the world of Python</p>
+        </a>
         </div>
         
     </div>
+    <% } %>
 </body>
 </html>
